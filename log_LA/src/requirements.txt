@@ -1,0 +1,8 @@
+# Azure Monitor Logs Ingestion SDK
+azure-monitor-ingestion>=1.0.0
+
+# Azure Identity for Managed Identity authentication
+azure-identity>=1.12.0
+
+# Azure Core
+azure-core>=1.26.0
