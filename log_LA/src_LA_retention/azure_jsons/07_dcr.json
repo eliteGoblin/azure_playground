@@ -1,0 +1,70 @@
+[
+  {
+    "dataCollectionEndpointId": "/subscriptions/321409f4-1325-4d64-8cc3-5129a66ae5a3/resourceGroups/rg-la-retention-vewcvs/providers/Microsoft.Insights/dataCollectionEndpoints/dce-retention-vewcvs",
+    "dataFlows": [
+      {
+        "destinations": [
+          "la-destination"
+        ],
+        "outputStream": "Custom-testexport_CL",
+        "streams": [
+          "Custom-TestExport"
+        ],
+        "transformKql": "source | extend TimeGenerated = timestamp | project-away timestamp"
+      }
+    ],
+    "description": "",
+    "destinations": {
+      "logAnalytics": [
+        {
+          "name": "la-destination",
+          "workspaceId": "948615b3-cd6f-416c-a841-ec1a36f9de0c",
+          "workspaceResourceId": "/subscriptions/321409f4-1325-4d64-8cc3-5129a66ae5a3/resourceGroups/rg-la-retention-vewcvs/providers/Microsoft.OperationalInsights/workspaces/law-retention-vewcvs"
+        }
+      ]
+    },
+    "etag": "\"0d009930-0000-1a00-0000-690c332e0000\"",
+    "id": "/subscriptions/321409f4-1325-4d64-8cc3-5129a66ae5a3/resourceGroups/rg-la-retention-vewcvs/providers/Microsoft.Insights/dataCollectionRules/dcr-retention-vewcvs",
+    "immutableId": "dcr-4a66712b02b342b38cc490377d332f90",
+    "location": "australiaeast",
+    "name": "dcr-retention-vewcvs",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "rg-la-retention-vewcvs",
+    "streamDeclarations": {
+      "Custom-TestExport": {
+        "columns": [
+          {
+            "name": "timestamp",
+            "type": "datetime"
+          },
+          {
+            "name": "level",
+            "type": "long"
+          },
+          {
+            "name": "message",
+            "type": "string"
+          },
+          {
+            "name": "test_id",
+            "type": "string"
+          },
+          {
+            "name": "sequence",
+            "type": "long"
+          }
+        ]
+      }
+    },
+    "systemData": {
+      "createdAt": "2025-11-06T05:33:31.1956685Z",
+      "createdBy": "elitegoblinrb@gmail.com",
+      "createdByType": "User",
+      "lastModifiedAt": "2025-11-06T05:33:31.1956685Z",
+      "lastModifiedBy": "elitegoblinrb@gmail.com",
+      "lastModifiedByType": "User"
+    },
+    "tags": {},
+    "type": "Microsoft.Insights/dataCollectionRules"
+  }
+]

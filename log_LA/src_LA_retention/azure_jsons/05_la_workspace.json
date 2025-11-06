@@ -1,0 +1,31 @@
+{
+  "createdDate": "2025-11-06T05:28:05.8122075Z",
+  "customerId": "948615b3-cd6f-416c-a841-ec1a36f9de0c",
+  "etag": "\"53003396-0000-1a00-0000-690c31fd0000\"",
+  "features": {
+    "disableLocalAuth": false,
+    "enableLogAccessUsingOnlyResourcePermissions": true,
+    "legacy": 0,
+    "searchVersion": 1
+  },
+  "id": "/subscriptions/321409f4-1325-4d64-8cc3-5129a66ae5a3/resourceGroups/rg-la-retention-vewcvs/providers/Microsoft.OperationalInsights/workspaces/law-retention-vewcvs",
+  "location": "australiaeast",
+  "modifiedDate": "2025-11-06T05:28:29.8534091Z",
+  "name": "law-retention-vewcvs",
+  "provisioningState": "Succeeded",
+  "publicNetworkAccessForIngestion": "Enabled",
+  "publicNetworkAccessForQuery": "Enabled",
+  "resourceGroup": "rg-la-retention-vewcvs",
+  "retentionInDays": 30,
+  "sku": {
+    "lastSkuUpdate": "2025-11-06T05:28:05.8122075Z",
+    "name": "PerGB2018"
+  },
+  "tags": {},
+  "type": "Microsoft.OperationalInsights/workspaces",
+  "workspaceCapping": {
+    "dailyQuotaGb": -1.0,
+    "dataIngestionStatus": "RespectQuota",
+    "quotaNextResetTime": "2025-11-06T06:00:00Z"
+  }
+}

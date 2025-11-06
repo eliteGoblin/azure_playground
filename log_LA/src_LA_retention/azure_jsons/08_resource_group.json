@@ -1,0 +1,11 @@
+{
+  "id": "/subscriptions/321409f4-1325-4d64-8cc3-5129a66ae5a3/resourceGroups/rg-la-retention-vewcvs",
+  "location": "australiaeast",
+  "managedBy": null,
+  "name": "rg-la-retention-vewcvs",
+  "properties": {
+    "provisioningState": "Succeeded"
+  },
+  "tags": {},
+  "type": "Microsoft.Resources/resourceGroups"
+}

@@ -1,0 +1,17 @@
+{
+  "createdDate": "2025-11-06T05:33:04.5647545Z",
+  "dataExportId": "dd660404-e69f-40ee-b593-647ffac57b5d",
+  "destination": {
+    "resourceId": "/subscriptions/321409f4-1325-4d64-8cc3-5129a66ae5a3/resourceGroups/rg-la-retention-vewcvs/providers/Microsoft.Storage/storageAccounts/salogretvewcvs",
+    "type": "StorageAccount"
+  },
+  "enable": true,
+  "id": "/subscriptions/321409f4-1325-4d64-8cc3-5129a66ae5a3/resourceGroups/rg-la-retention-vewcvs/providers/Microsoft.OperationalInsights/workspaces/law-retention-vewcvs/dataexports/export-testexport-vewcvs",
+  "lastModifiedDate": "2025-11-06T05:33:04.5647545Z",
+  "name": "export-testexport-vewcvs",
+  "resourceGroup": "rg-la-retention-vewcvs",
+  "tableNames": [
+    "testexport_CL"
+  ],
+  "type": "Microsoft.OperationalInsights/workspaces/dataexports"
+}

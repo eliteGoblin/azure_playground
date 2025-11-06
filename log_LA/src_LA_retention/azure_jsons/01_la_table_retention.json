@@ -1,0 +1,64 @@
+{
+  "archiveRetentionInDays": 335,
+  "id": "/subscriptions/321409f4-1325-4d64-8cc3-5129a66ae5a3/resourceGroups/rg-la-retention-vewcvs/providers/Microsoft.OperationalInsights/workspaces/law-retention-vewcvs/tables/testexport_CL",
+  "lastPlanModifiedDate": "2025-11-06T05:32:29.6247189Z",
+  "name": "testexport_CL",
+  "plan": "Analytics",
+  "provisioningState": "Succeeded",
+  "resourceGroup": "rg-la-retention-vewcvs",
+  "retentionInDays": 30,
+  "retentionInDaysAsDefault": false,
+  "schema": {
+    "columns": [
+      {
+        "isDefaultDisplay": false,
+        "isHidden": false,
+        "name": "TimeGenerated",
+        "type": "datetime"
+      },
+      {
+        "isDefaultDisplay": false,
+        "isHidden": false,
+        "name": "level",
+        "type": "long"
+      },
+      {
+        "isDefaultDisplay": false,
+        "isHidden": false,
+        "name": "message",
+        "type": "string"
+      },
+      {
+        "isDefaultDisplay": false,
+        "isHidden": false,
+        "name": "test_id",
+        "type": "string"
+      },
+      {
+        "isDefaultDisplay": false,
+        "isHidden": false,
+        "name": "sequence",
+        "type": "long"
+      }
+    ],
+    "name": "testexport_CL",
+    "solutions": [
+      "LogManagement"
+    ],
+    "standardColumns": [
+      {
+        "isDefaultDisplay": false,
+        "isHidden": false,
+        "name": "TenantId",
+        "type": "guid"
+      }
+    ],
+    "tableSubType": "DataCollectionRuleBased",
+    "tableType": "CustomLog"
+  },
+  "systemData": {
+    "createdAt": "2025-11-06T05:32:29.6253137Z"
+  },
+  "totalRetentionInDays": 365,
+  "totalRetentionInDaysAsDefault": false
+}

@@ -1,0 +1,32 @@
+Azure LA Retention Demo - Configuration Export
+Generated: 2025-11-06 05:49:22 UTC
+
+Resource Group: rg-la-retention-vewcvs
+LA Workspace: law-retention-vewcvs
+Table: testexport_CL
+Storage Account: salogretvewcvs
+Export Rule: export-testexport-vewcvs
+
+Files:
+  01_la_table_retention.json     - Table with retention settings (30 hot + 335 archive)
+  02_export_rule.json            - Data export rule (LA → Storage Account)
+  03_storage_account.json        - Storage account configuration
+  04_lifecycle_policy.json       - Blob lifecycle policy (365-day retention)
+  05_la_workspace.json           - Log Analytics workspace settings
+  06_dce.json                    - Data Collection Endpoint (ingestion)
+  07_dcr.json                    - Data Collection Rule (transform + routing)
+  08_resource_group.json         - Resource group details
+  09_storage_containers.json     - Storage containers (export destinations)
+  10_dcr_role_assignments.json   - RBAC roles on DCR
+
+Key Findings:
+  ✅ LA supports native archive/long-term retention
+  ✅ Table retention: 30 days hot + 335 days archive = 365 days total
+  ✅ Export rule enabled for continuous export to Storage Account
+  ✅ Storage Account has 365-day lifecycle policy
+
+To view any file:
+  cat azure_jsons/01_la_table_retention.json | jq
+
+To view retention settings specifically:
+  cat azure_jsons/01_la_table_retention.json | jq '{name, retentionInDays, totalRetentionInDays, archiveRetentionInDays}'

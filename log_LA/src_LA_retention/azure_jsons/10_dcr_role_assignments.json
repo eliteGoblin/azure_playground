@@ -1,0 +1,42 @@
+[
+  {
+    "condition": null,
+    "conditionVersion": null,
+    "createdBy": "1e5424e7-c73b-4c41-92f0-fdda8be286d8",
+    "createdOn": "2025-11-06T05:33:35.885482+00:00",
+    "delegatedManagedIdentityResourceId": null,
+    "description": "",
+    "id": "/subscriptions/321409f4-1325-4d64-8cc3-5129a66ae5a3/resourceGroups/rg-la-retention-vewcvs/providers/Microsoft.Insights/dataCollectionRules/dcr-retention-vewcvs/providers/Microsoft.Authorization/roleAssignments/a49a4faf-60fa-ad27-b4c7-9d32503dcca8",
+    "name": "a49a4faf-60fa-ad27-b4c7-9d32503dcca8",
+    "principalId": "450d90a2-c507-4cfd-a0e4-f7627e9d96c6",
+    "principalName": "2ce0da88-98d3-48dc-9265-9028b373c9b5",
+    "principalType": "ServicePrincipal",
+    "resourceGroup": "rg-la-retention-vewcvs",
+    "roleDefinitionId": "/subscriptions/321409f4-1325-4d64-8cc3-5129a66ae5a3/providers/Microsoft.Authorization/roleDefinitions/3913510d-42f4-4e42-8a64-420c390055eb",
+    "roleDefinitionName": "Monitoring Metrics Publisher",
+    "scope": "/subscriptions/321409f4-1325-4d64-8cc3-5129a66ae5a3/resourceGroups/rg-la-retention-vewcvs/providers/Microsoft.Insights/dataCollectionRules/dcr-retention-vewcvs",
+    "type": "Microsoft.Authorization/roleAssignments",
+    "updatedBy": "1e5424e7-c73b-4c41-92f0-fdda8be286d8",
+    "updatedOn": "2025-11-06T05:33:35.885482+00:00"
+  },
+  {
+    "condition": null,
+    "conditionVersion": null,
+    "createdBy": "1e5424e7-c73b-4c41-92f0-fdda8be286d8",
+    "createdOn": "2025-11-06T05:34:50.847878+00:00",
+    "delegatedManagedIdentityResourceId": null,
+    "description": null,
+    "id": "/subscriptions/321409f4-1325-4d64-8cc3-5129a66ae5a3/resourceGroups/rg-la-retention-vewcvs/providers/Microsoft.Insights/dataCollectionRules/dcr-retention-vewcvs/providers/Microsoft.Authorization/roleAssignments/619b0f7a-f1f8-4c58-acc7-e9326e80af50",
+    "name": "619b0f7a-f1f8-4c58-acc7-e9326e80af50",
+    "principalId": "1e5424e7-c73b-4c41-92f0-fdda8be286d8",
+    "principalName": "elitegoblinrb_gmail.com#EXT#@elitegoblinrbgmail.onmicrosoft.com",
+    "principalType": "User",
+    "resourceGroup": "rg-la-retention-vewcvs",
+    "roleDefinitionId": "/subscriptions/321409f4-1325-4d64-8cc3-5129a66ae5a3/providers/Microsoft.Authorization/roleDefinitions/3913510d-42f4-4e42-8a64-420c390055eb",
+    "roleDefinitionName": "Monitoring Metrics Publisher",
+    "scope": "/subscriptions/321409f4-1325-4d64-8cc3-5129a66ae5a3/resourceGroups/rg-la-retention-vewcvs/providers/Microsoft.Insights/dataCollectionRules/dcr-retention-vewcvs",
+    "type": "Microsoft.Authorization/roleAssignments",
+    "updatedBy": "1e5424e7-c73b-4c41-92f0-fdda8be286d8",
+    "updatedOn": "2025-11-06T05:34:50.847878+00:00"
+  }
+]

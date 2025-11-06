@@ -1,0 +1,44 @@
+{
+  "id": "/subscriptions/321409f4-1325-4d64-8cc3-5129a66ae5a3/resourceGroups/rg-la-retention-vewcvs/providers/Microsoft.Storage/storageAccounts/salogretvewcvs/managementPolicies/default",
+  "lastModifiedTime": "2025-11-06T05:29:34.574953+00:00",
+  "name": "DefaultManagementPolicy",
+  "policy": {
+    "rules": [
+      {
+        "definition": {
+          "actions": {
+            "baseBlob": {
+              "delete": {
+                "daysAfterCreationGreaterThan": 365.0,
+                "daysAfterLastAccessTimeGreaterThan": null,
+                "daysAfterLastTierChangeGreaterThan": null,
+                "daysAfterModificationGreaterThan": null
+              },
+              "enableAutoTierToHotFromCool": null,
+              "tierToArchive": null,
+              "tierToCold": null,
+              "tierToCool": null,
+              "tierToHot": null
+            },
+            "snapshot": null,
+            "version": null
+          },
+          "filters": {
+            "blobIndexMatch": null,
+            "blobTypes": [
+              "blockBlob"
+            ],
+            "prefixMatch": [
+              "am-"
+            ]
+          }
+        },
+        "enabled": true,
+        "name": "delete-after-365-days",
+        "type": "Lifecycle"
+      }
+    ]
+  },
+  "resourceGroup": "rg-la-retention-vewcvs",
+  "type": "Microsoft.Storage/storageAccounts/managementPolicies"
+}

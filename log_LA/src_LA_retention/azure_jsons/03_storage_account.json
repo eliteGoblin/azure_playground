@@ -1,0 +1,103 @@
+{
+  "accessTier": "Cool",
+  "accountMigrationInProgress": null,
+  "allowBlobPublicAccess": true,
+  "allowCrossTenantReplication": true,
+  "allowSharedKeyAccess": true,
+  "allowedCopyScope": null,
+  "azureFilesIdentityBasedAuthentication": null,
+  "blobRestoreStatus": null,
+  "creationTime": "2025-11-06T05:28:06.355296+00:00",
+  "customDomain": null,
+  "defaultToOAuthAuthentication": false,
+  "dnsEndpointType": "Standard",
+  "dualStackEndpointPreference": null,
+  "enableExtendedGroups": null,
+  "enableHttpsTrafficOnly": true,
+  "enableNfsV3": false,
+  "encryption": {
+    "encryptionIdentity": null,
+    "keySource": "Microsoft.Storage",
+    "keyVaultProperties": null,
+    "requireInfrastructureEncryption": null,
+    "services": {
+      "blob": {
+        "enabled": true,
+        "keyType": "Account",
+        "lastEnabledTime": "2025-11-06T05:28:06.527284+00:00"
+      },
+      "file": {
+        "enabled": true,
+        "keyType": "Account",
+        "lastEnabledTime": "2025-11-06T05:28:06.527284+00:00"
+      },
+      "queue": null,
+      "table": null
+    }
+  },
+  "extendedLocation": null,
+  "failoverInProgress": null,
+  "geoReplicationStats": null,
+  "id": "/subscriptions/321409f4-1325-4d64-8cc3-5129a66ae5a3/resourceGroups/rg-la-retention-vewcvs/providers/Microsoft.Storage/storageAccounts/salogretvewcvs",
+  "identity": {
+    "principalId": null,
+    "tenantId": null,
+    "type": "None",
+    "userAssignedIdentities": null
+  },
+  "immutableStorageWithVersioning": null,
+  "isHnsEnabled": false,
+  "isLocalUserEnabled": true,
+  "isSftpEnabled": false,
+  "isSkuConversionBlocked": null,
+  "keyCreationTime": {
+    "key1": "2025-11-06T05:28:06.511553+00:00",
+    "key2": "2025-11-06T05:28:06.511553+00:00"
+  },
+  "keyPolicy": null,
+  "kind": "StorageV2",
+  "largeFileSharesState": null,
+  "lastGeoFailoverTime": null,
+  "location": "australiaeast",
+  "minimumTlsVersion": "TLS1_2",
+  "name": "salogretvewcvs",
+  "networkRuleSet": {
+    "bypass": "AzureServices",
+    "defaultAction": "Allow",
+    "ipRules": [],
+    "ipv6Rules": [],
+    "resourceAccessRules": [],
+    "virtualNetworkRules": []
+  },
+  "placement": null,
+  "primaryEndpoints": {
+    "blob": "https://salogretvewcvs.blob.core.windows.net/",
+    "dfs": "https://salogretvewcvs.dfs.core.windows.net/",
+    "file": "https://salogretvewcvs.file.core.windows.net/",
+    "internetEndpoints": null,
+    "ipv6Endpoints": null,
+    "microsoftEndpoints": null,
+    "queue": "https://salogretvewcvs.queue.core.windows.net/",
+    "table": "https://salogretvewcvs.table.core.windows.net/",
+    "web": "https://salogretvewcvs.z8.web.core.windows.net/"
+  },
+  "primaryLocation": "australiaeast",
+  "privateEndpointConnections": [],
+  "provisioningState": "Succeeded",
+  "publicNetworkAccess": "Enabled",
+  "resourceGroup": "rg-la-retention-vewcvs",
+  "routingPreference": null,
+  "sasPolicy": null,
+  "secondaryEndpoints": null,
+  "secondaryLocation": null,
+  "sku": {
+    "name": "Standard_LRS",
+    "tier": "Standard"
+  },
+  "statusOfPrimary": "available",
+  "statusOfSecondary": null,
+  "storageAccountSkuConversionStatus": null,
+  "tags": {},
+  "type": "Microsoft.Storage/storageAccounts",
+  "zones": null
+}
